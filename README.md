@@ -1,5 +1,13 @@
 # b3-tools
-Tools I'm building in order to help my investments decisions
+
+Tools I'm building in order to help my investments decisions.
+
+Based in the REITs I've in my personal portifolio I ran a script that scrapy the last quotas price.
+Based in the prices list and the last yield in BRL and in the amount of money I'll invest it calculate which of the REITs will pay more money.
+
+## TODOs
+
+ - The best way to do this calculation is not based only in the last month but based at least in the average of the last 12 months.
 
 ## installation steps:
 
