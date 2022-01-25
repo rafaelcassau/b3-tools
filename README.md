@@ -28,7 +28,7 @@ python choice_better_DY.py
 ## input:
 
 ```
-informe o valor do aporte em R$: 5200
+informe o valor do aporte em R$: 523.21
 ```
 
 ## output
