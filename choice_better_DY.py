@@ -18,6 +18,7 @@ FIIS_LIST = [
     ("ALZR11", "Laje/Logistica"),
     ("IRDM11", "CRI"),
     ("PVBI11", "Laje comercial"),
+    ("BTLG11", "Logistica"),
 ]
 
 URL_PREFIX = "https://www.fundsexplorer.com.br/funds/{}"
