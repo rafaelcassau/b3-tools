@@ -74,6 +74,7 @@ def find_most_high_yield_return_based_on_last_payment(money, fiis_list):
             "change": change,
             "equity_value": equity_value,
             "market_value": market_value,
+            "P/VP": fii["indicators"]["P/VP"]
         })  
 
     return sorted(next_payment_yield_list, key=lambda fii: fii["next_payment_yield_BRL"], reverse=True)
@@ -89,6 +90,7 @@ def print_fiis(fiis_list):
         print(f"change: {fii['change']}")
         print(f"equity_value: {fii['equity_value']}")
         print(f"market_value: {fii['market_value']}")
+        print(f"P/VP: {fii['P/VP']}")
 
 
 if __name__ == "__main__":
